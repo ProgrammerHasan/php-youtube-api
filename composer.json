@@ -1,0 +1,20 @@
+{
+  "name": "programmerhasan/youtube",
+  "description": "git add README.md",
+  "minimum-stability": "stable",
+  "type": "library",
+  "keywords": ["youtube", "api", "video", "programmerhasan"],
+  "license": "MIT",
+  "authors": [{
+    "name": "Programmer Hasan",
+    "email": "programmerhasan.s@gmail.com"
+  }],
+  "require": {
+    "php": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ProgrammerHasan\\YouTube\\": "src"
+    }
+  }
+}
